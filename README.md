@@ -73,6 +73,7 @@ opens {package név pl.: me.dawey.erettsegifx} to javafx.fxml, com.sun.xml.bind;
 
 <h3>5. Lepes</h3>
 <h5>Ha mindennel megvagyunk tesztelhetjuk a kovetkezo kod segitsegevel:</h5>
+
 ```java
 MNBArfolyamServiceSoapImpl impl = new MNBArfolyamServiceSoapImpl();
 MNBArfolyamServiceSoap service = impl.getCustomBindingMNBArfolyamServiceSoap();
